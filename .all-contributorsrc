@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Kyun2da",
+      "name": "Kyun Heo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50328132?v=4",
+      "profile": "http://kyun2da.dev",
+      "contributions": [
+        "platform"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cs_interview",
+  "projectOwner": "MLifeFam",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
