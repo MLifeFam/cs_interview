@@ -1,47 +1,36 @@
-# Website
+# CS 스터디 레포지토리입니다.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-) [![Netlify Status](https://api.netlify.com/api/v1/badges/f8fd2fac-2e06-48ba-a9db-4205b882e5ff/deploy-status)](https://app.netlify.com/sites/mfamcs/deploys)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## Installation
+
+## 설치 방법
 
 ```console
 yarn install
 ```
 
-## Local Development
+#### 로컬 환경에서 시작
 
 ```console
 yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+이 명령어를 통해 로컬에서 미리 내가 등록한 문서를 볼 수 있습니다.
 
-## Build
 
-```console
-yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+이 문서에 기여해준 분들께 감사합니다. ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+
 <table>
   <tr>
     <td align="center"><a href="http://kyun2da.dev"><img src="https://avatars.githubusercontent.com/u/50328132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kyun Heo</b></sub></a><br /><a href="#platform-Kyun2da" title="Packaging/porting to new platform">📦</a></td>
