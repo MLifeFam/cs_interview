@@ -1,9 +1,10 @@
 # CS 스터디 레포지토리입니다.
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-) [![Netlify Status](https://api.netlify.com/api/v1/badges/f8fd2fac-2e06-48ba-a9db-4205b882e5ff/deploy-status)](https://app.netlify.com/sites/mfamcs/deploys)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-
 
 ## 설치 방법
 
@@ -18,10 +19,6 @@ yarn start
 ```
 
 이 명령어를 통해 로컬에서 미리 내가 등록한 문서를 볼 수 있습니다.
-
-
-
-
 
 ## Contributors ✨
 
