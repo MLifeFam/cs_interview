@@ -1,9 +1,7 @@
 # CS 스터디 레포지토리입니다.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-) [![Netlify Status](https://api.netlify.com/api/v1/badges/f8fd2fac-2e06-48ba-a9db-4205b882e5ff/deploy-status)](https://app.netlify.com/sites/mfamcs/deploys)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 설치 방법
@@ -27,10 +25,10 @@ yarn start
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-
 <table>
   <tr>
     <td align="center"><a href="http://kyun2da.dev"><img src="https://avatars.githubusercontent.com/u/50328132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kyun Heo</b></sub></a><br /><a href="#platform-Kyun2da" title="Packaging/porting to new platform">📦</a></td>
+    <td align="center"><a href="https://github.com/zoolake"><img src="https://avatars.githubusercontent.com/u/57625026?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zoolake</b></sub></a><br /><a href="#platform-zoolake" title="Packaging/porting to new platform">📦</a></td>
   </tr>
 </table>
 
