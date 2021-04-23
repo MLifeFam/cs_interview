@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'CS Study',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -21,7 +21,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '시작하기',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -37,8 +37,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '시작하기',
               to: '/docs/intro',
+            },
+            {
+              label: '가이드',
+              to: '/docs/guide',
             },
           ],
         },
