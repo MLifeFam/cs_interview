@@ -28,7 +28,7 @@ yarn start
 <table>
   <tr>
     <td align="center"><a href="http://kyun2da.dev"><img src="https://avatars.githubusercontent.com/u/50328132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kyun Heo</b></sub></a><br /><a href="#platform-Kyun2da" title="Packaging/porting to new platform">📦</a></td>
-    <td align="center"><a href="https://github.com/HelloNaks"><img src="https://avatars.githubusercontent.com/u/49478141?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HelloNaks</b></sub></a><br /><a href="#platform-HelloNaks" title="Packaging/porting to new platform">📦</a></td>
+    <td align="center"><a href="https://github.com/HelloNaks"><img src="https://avatars.githubusercontent.com/u/49478141?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HelloNaks</b></sub></a><br /><a href="#platform-HelloNaks" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/MLifeFam/cs_interview/commits?author=HelloNaks" title="Documentation">📖</a></td>
   </tr>
 </table>
 
