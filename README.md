@@ -1,7 +1,7 @@
 # CS 스터디 레포지토리입니다.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## 설치 방법
@@ -28,8 +28,8 @@ yarn start
 <table>
   <tr>
     <td align="center"><a href="http://kyun2da.dev"><img src="https://avatars.githubusercontent.com/u/50328132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kyun Heo</b></sub></a><br /><a href="#platform-Kyun2da" title="Packaging/porting to new platform">📦</a></td>
-    <td align="center"><a href="http://hongcoding.tistory.com"><img src="https://avatars.githubusercontent.com/u/46186664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HongEunho</b></sub></a><br /><a href="#platform-HongEunho" title="Packaging/porting to new platform">📦</a></td>
     <td align="center"><a href="http://jongminfire.dev"><img src="https://avatars.githubusercontent.com/u/51112542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jongminfire</b></sub></a><br /><a href="#platform-Jongminfire" title="Packaging/porting to new platform">📦</a></td>
+    <td align="center"><a href="http://hongcoding.tistory.com"><img src="https://avatars.githubusercontent.com/u/46186664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HongEunho</b></sub></a><br /><a href="#platform-HongEunho" title="Packaging/porting to new platform">📦</a></td>
   </tr>
 </table>
 
