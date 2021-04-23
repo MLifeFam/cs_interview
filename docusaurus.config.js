@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'MFAM CS 스터디',
-  tagline: '자 드가자~',
+  tagline: 'CS 기본 지식 공부를 위한 홈페이지입니다.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'CS 스터디',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -21,10 +21,10 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '시작하기',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/MLifeFam/cs_interview',
           label: 'GitHub',
           position: 'right',
         },
@@ -37,25 +37,26 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '시작하기',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '참고 사이트',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Ready-For-Tech-Interview',
+              href: 'https://github.com/WooVictory/Ready-For-Tech-Interview',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Interview_Question_for_Beginner',
+              href:
+                'https://github.com/JaeYeopHan/Interview_Question_for_Beginner',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'tech-interview-for-developer',
+              href: 'https://github.com/gyoogle/tech-interview-for-developer',
             },
           ],
         },
@@ -63,17 +64,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/MLifeFam/cs_interview',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MFAM Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Markdown Features
+# 마크다운 작성법
 
 Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
 
@@ -36,8 +36,6 @@ Let's see how to [Create a page](/create-a-page).
 ```md
 Let's see how to [Create a page](./create-a-page.md).
 ```
-
-**Result:** Let's see how to [Create a page](./create-a-page.md).
 
 ## Images
 
@@ -123,7 +121,7 @@ This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
 This is <Highlight color="#1877F2">Facebook blue</Highlight> !
 ```
 
-export const Highlight = ({children, color}) => (
+export const Highlight = ({ children, color }) => (
   <span
     style={{
       backgroundColor: color,
@@ -134,7 +132,8 @@ export const Highlight = ({children, color}) => (
     }}
     onClick={() => {
       alert(`You clicked the color ${color} with label ${children}`);
-    }}>
+    }}
+  >
     {children}
   </span>
 );
