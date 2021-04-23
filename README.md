@@ -29,6 +29,7 @@ yarn start
   <tr>
     <td align="center"><a href="http://kyun2da.dev"><img src="https://avatars.githubusercontent.com/u/50328132?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kyun Heo</b></sub></a><br /><a href="#platform-Kyun2da" title="Packaging/porting to new platform">📦</a></td>
     <td align="center"><a href="http://hongcoding.tistory.com"><img src="https://avatars.githubusercontent.com/u/46186664?v=4?s=100" width="100px;" alt=""/><br /><sub><b>HongEunho</b></sub></a><br /><a href="#platform-HongEunho" title="Packaging/porting to new platform">📦</a></td>
+    <td align="center"><a href="http://jongminfire.dev"><img src="https://avatars.githubusercontent.com/u/51112542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jongminfire</b></sub></a><br /><a href="#platform-Jongminfire" title="Packaging/porting to new platform">📦</a></td>
   </tr>
 </table>
 
