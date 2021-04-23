@@ -3,8 +3,21 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8fd2fac-2e06-48ba-a9db-4205b882e5ff/deploy-status)](https://app.netlify.com/sites/mfamcs/deploys)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMLifeFam%2Fcs_interview%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
+![GitHub Repo stars](https://img.shields.io/github/stars/mlifefam/cs_interview?style=social)
+![GitHub](https://img.shields.io/github/license/mlifefam/cs_interview)
+![GitHub issues](https://img.shields.io/github/issues/mlifefam/cs_interview)
 
-## 설치 방법
+## 홈페이지
+
+👉 [홈페이지](https://mfamcs.netlify.app/)
+
+## 다루고 있는 주제
+
+👉 [노션 페이지 이동하기](https://www.notion.so/2bc09a8cd3584e62bcec97542d8402fe?v=a09f67cde02942b39cb47e2f7d6b1dfa)
+
+## 로컬 실행 방법
 
 ```console
 yarn
