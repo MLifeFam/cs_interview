@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 문서 만드는 방법
+# Create a Document
 
 Documents are **groups of pages** connected through:
 

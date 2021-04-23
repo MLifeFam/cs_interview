@@ -2,32 +2,34 @@
 sidebar_position: 1
 ---
 
-# 시작하기
+# Tutorial Intro
 
-문서를 로컬에서 시작하고 머지하기까지의 방법
+Let's discover **Docusaurus in less than 5 minutes**.
 
-## 로컬에 클론하기
+## Getting Started
 
-자신의 pc에 클론하기
+Get started by **creating a new site**.
 
-[프로젝트 홈페이지](https://github.com/MLifeFam/cs_interview) 에서 code 눌러서 클론하거나
+Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
 
-git clone https://github.com/MLifeFam/cs_interview.git
+## Generate a new site
 
-## 브랜치 생성하기
+Generate a new Docusaurus site using the **classic template**:
 
-생성은 자신 이름으로 팀원들이 알기 쉽게 생성
+```shell
+npx @docusaurus/init@latest init my-website classic
+```
 
-## 패키지 다운로드
+## Start your site
 
-npm install -g yarn
+Run the development server:
 
-해당 폴더 접속 후 yarn 으로 패키지 설치
+```shell
+cd my-website
 
-yarn start
+npx docusaurus start
+```
 
-## http://localhost:3000 접속
+Your site starts at `http://localhost:3000`.
 
-접속 후 잘 실행되는지 확인하고 문서 생성 후 작업
-
-작업 후 완성되면 메인 브랜치로
+Open `docs/getting-started.md` and edit some lines: the site **reloads automatically** and display your changes.
