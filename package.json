@@ -19,7 +19,9 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "rehype-katex": "4.0.0",
+    "remark-math": "3.0.1"
   },
   "browserslist": {
     "production": [
