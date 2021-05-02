@@ -1,7 +1,11 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 module.exports = {
   title: 'MFAM CS 스터디',
-  tagline: '자 드가자~',
+  tagline: 'CS 기본 지식 공부를 위한 홈페이지입니다.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -9,9 +13,18 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'CS 스터디',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -21,10 +34,10 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: '시작하기',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/MLifeFam/cs_interview',
           label: 'GitHub',
           position: 'right',
         },
@@ -37,25 +50,26 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: '시작하기',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '참고 사이트',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Ready-For-Tech-Interview',
+              href: 'https://github.com/WooVictory/Ready-For-Tech-Interview',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Interview_Question_for_Beginner',
+              href:
+                'https://github.com/JaeYeopHan/Interview_Question_for_Beginner',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'tech-interview-for-developer',
+              href: 'https://github.com/gyoogle/tech-interview-for-developer',
             },
           ],
         },
@@ -63,17 +77,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/MLifeFam/cs_interview',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MFAM Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,6 +95,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
