@@ -14,7 +14,7 @@
 
 
 
-![TreeStructure](/img/Data-Structure/B-Tree/TreeStructure.png)
+![TreeStructure](C:\Android\AndroidProject\cs_interview\static\img\Data-Structure\B-Tree\TreeStructure.png)
 
 그림의 네모 칸 하나 하나를 '노드' 라고 하며, 가장 상단의 노드를 '**루트 노드(Root Node)**', 중간 노드를 '**브랜치 노드(Branch Node)**', 가장 하단의 노드를 '**리프 노드(Leaf Node)**' 라고 한다.
 
@@ -22,7 +22,7 @@
 
 안의 구조를 자세히 살펴보면 다음과 같다.
 
-![B-TreeStructure](/img/Data-Structure/B-Tree/B-TreeStructure.png)
+![B-TreeStructure](C:\Android\AndroidProject\cs_interview\static\img\Data-Structure\B-Tree\B-TreeStructure.png)
 
 위 그림에서 보듯이, 노드당 데이터를 2개 이상 가질 수 있으며  자식 노드를 자신의 데이터 수 이상으로 가질 수 있다. 즉, 노드의 데이터가 N개이면, 자식 수는 N+1개가 된다.
 
@@ -61,7 +61,7 @@ B-Tree의 확장개념으로,  데이터의 빠른 접근을 위해 인덱스 �
 
 
 
-![B+TreeStructure](/img/Data-Structure/B-Tree/B+TreeStructure.png)
+![B+TreeStructure](C:\Android\AndroidProject\cs_interview\static\img\Data-Structure\B-Tree\B+TreeStructure.png)
 
 위의 그림처럼 InnerNode는 LeafNode의 데이터를 찾아가는 데에만 쓰이며, 
 LeafNode끼리는 LinkedList로 연결되어 있다.
