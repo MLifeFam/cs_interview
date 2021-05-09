@@ -60,6 +60,8 @@
    > (insert 12에서 [9, 7, 12] 를 서브트리로 분리하였지만 B-Tree의 조건인 "Leaf노드가 모두 같은 레벨에 존재" 를 만족시키지 못했으므로 root로 merge)
 
 
+#  
+
 
 ②  B-Tree의 삭제 연산
 
@@ -95,7 +97,7 @@
 
 리프노드가 아닌 노드를 삭제할 때의 과정은 다음과 같다 (이너 노드인 18 삭제 )
 
-<img src="/img/Data-Structure/B-Tree/B-TreeDelete2.png" alt="B-TreeDelete2" style="zoom:50%;" />
+![B-TreeDelete2](/img/Data-Structure/B-Tree/B-TreeDelete2.png)
 
 1. 18을 찾아 루트부터 탐색한다
 
