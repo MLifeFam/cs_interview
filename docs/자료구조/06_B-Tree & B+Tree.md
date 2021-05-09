@@ -48,7 +48,7 @@
 
 ① B-Tree의 삽입 연산
 
-![B-TreeInsertion](C:\Android\AndroidProject\cs_interview\static\img\Data-Structure\B-Tree\B-TreeInsertion.png)
+![B-TreeInsertion](/img/Data-Structure/B-Tree/B-TreeInsertion.png)
 
 1. 데이터를 탐색해 해당하는 Leaf 노드에 데이터 삽입
 
@@ -73,7 +73,7 @@
 
 자세한 과정을 예시로 설명하면 다음과 같다. ( 리프노드인 1 삭제 )
 
-![B-TreeDelete](C:\Android\AndroidProject\cs_interview\static\img\Data-Structure\B-Tree\B-TreeDelete.png)
+![B-TreeDelete](/img/Data-Structure/B-Tree/B-TreeDelete.png)
 
 1. 1을 찾아 루트부터 탐색한다
 
@@ -95,7 +95,7 @@
 
 리프노드가 아닌 노드를 삭제할 때의 과정은 다음과 같다 (이너 노드인 18 삭제 )
 
-<img src="C:\Android\AndroidProject\cs_interview\static\img\Data-Structure\B-Tree\B-TreeDelete2.png" alt="B-TreeDelete2" style="zoom:50%;" />
+<img src="/img/Data-Structure/B-Tree/B-TreeDelete2.png" alt="B-TreeDelete2" style="zoom:50%;" />
 
 1. 18을 찾아 루트부터 탐색한다
 
