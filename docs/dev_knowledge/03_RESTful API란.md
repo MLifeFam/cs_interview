@@ -123,7 +123,7 @@ RestAPI(RESTful API)란 REST아키텍처의 제약 조건을 준수하는 애플
 
 - 크게 GET, POST, PUT, DELETE, HEAD가 있다.
 
-##### 
+
 
 
 
