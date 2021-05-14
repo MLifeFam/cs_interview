@@ -62,6 +62,14 @@ TDD 선구자인 [Kent Beck](https://ko.wikipedia.org/wiki/%EC%BC%84%ED%8A%B8_%E
 5. `S/W 개발시 비용증가`
    - TDD 자체가 일정비용(시간 등)을 필요로 함.
 
+:::tip 테스트 라이브러리 없이 테스트 코드를 작성할 수 있나요?
+
+네, 가능합니다. 직접 테스트 코드를 짜면 됩니다. 하지만 잘 구축되어 있는 테스트 라이브러리 사용을 추천합니다!
+
+이에 대한 토론이 되어있는 [stackoverflow](https://stackoverflow.com/questions/4325014/how-to-do-unit-testing-without-the-use-of-a-library)를 참조해주세요
+
+:::
+
 ## TDD Tools
 
 - Java를 위한 JUnit
