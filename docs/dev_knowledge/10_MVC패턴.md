@@ -4,6 +4,8 @@
 
 ![MVC](/img/dev_knowledge/MVC/MVC.png)
 
+![MVCwork](/img/dev_knowledge/MVC/MVCwork.png)
+
 #
 
 
@@ -129,6 +131,16 @@ View와 Model을 중재하는 Controller의 비중은 별로 크지 않을 것�
 Controller는 View와 라이프 사이클이 강하게 연결되어 있어서 분리하기도 어렵고, 유지보수와 테스트가 모두 힘들어진다.
 
 이러한 MVC의 한계점을 극복하기 위해 `MVP, MVVM, Viper, RxMVVM` 패턴 등이 파생되었다.
+
+
+
+### 면접에 나올 수 있는 질문
+
+- View, Model, Controller가 무엇인지, 각각의 역할에 대해 설명해보세요
+- MVC패턴의 장점에 대해 말해보세요
+- MVC패턴의 한계점과 그 한계점을 극복하기 위한 방안을 말해보세요
+
+###
 
 
 
