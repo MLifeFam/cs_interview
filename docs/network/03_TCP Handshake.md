@@ -181,6 +181,18 @@ Clinet > Server : TCP ACK
 
 <br />
 
+<details>
+<summary><strong> Q. 3 way handshake, 4 way handshake는 필수적인 과정인가?</strong></summary>
+<div markdown="1">
+<br/>
+
+> A. 3,4 way handshake를 통하면 여러번 패킷을 주고 받는 과정이 포함된다. 하지만 이는 신뢰성 있는 연결인 TCP 특성상 보낸 데이터를 잘 받았는지, 그에 대한 잘 받았다는 응답 역시 잘 받았는지를 양측에서 확인하는 과정이다. <br/><br/> 이러한 과정이 없다면 통신하던 중 예기치 않게 연결이 종료될 수 있고, 이는 `TCP의 신뢰성에 영향`을 끼치게 되므로 TCP 통신 과정에서는 필수적이라 할 수 있다.
+
+</div>
+</details>
+
+<br />
+
 ---
 
 ## 참고
