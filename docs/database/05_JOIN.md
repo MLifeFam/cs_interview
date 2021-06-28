@@ -224,7 +224,7 @@ FROM Star CROSS JOIN Dep
 
 
 
-### SELF JOIN(셀프조인)
+### 4. SELF JOIN(셀프조인)
 
 셀프 조인은 이름처럼 자기 혼자서 '스스로' 결합을 하는 방식이다.
 
