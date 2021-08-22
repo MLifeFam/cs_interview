@@ -39,6 +39,10 @@ RISC는 다음과 같은 특징을 갖는다.
   - 그러나, RISC 아키텍처에서는 다수의 명령어로 하나의 프로세스를 수행한다.
 
 
+<div align='center'>
+    <img src='/img/computer_architecture_and_OS/cisc_risc/01.PNG' />
+</div>
+
 
 
 
