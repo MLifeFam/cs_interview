@@ -155,7 +155,7 @@
    | 10    | 9    | 한글날     |
    | 12    | 25   | 크리스마스 |
 
-   </br>
+   <br/>
 
    SELECT DISTINCT MONTH FROM Calendar;
 
@@ -188,7 +188,7 @@
 
    SELECT DISTINCT 컬럼명 FROM 테이블명 WHERE 컬럼명 = 조건
 
-   </br>
+   <br/>
 
 
 
