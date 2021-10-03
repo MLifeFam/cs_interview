@@ -1,0 +1,170 @@
+<br />
+
+## 카카오톡 채팅방 DB 모델링 설계
+
+<br />
+
+<div align='center'>
+
+<img src="/img/database/chattingDB/kakao.jpeg" width="300px" />
+
+###### <small> 이미지 출처 : 카카오 </small>
+
+<br />
+
+</div>
+
+`대화목록` → `채팅방` 으로 이어지는 구조를 띄는 채팅방 DB 모델링을 설계 해본다.
+
+<br />
+
+## 테이블 생성
+
+### user 테이블
+
+<br />
+
+<div align='center'>
+
+<img src="/img/database/chattingDB/userProfile.jpg" width="200px" />
+
+<br />
+<br />
+<br />
+
+</div>
+
+위와 같이 `이름`,`프로필 이미지`,`배경 이미지`,`상태 메세지` 등의 정보가 필요하다고 할 때, 테이블은 다음과 같이 만들 수 있다.
+
+```sql
+CREATE TABLE `user` (
+  `userID` varchar(45) PRIMARY KEY NOT NULL,
+  `name` varchar(45) NOT NULL,
+  `statusMessage` text,
+  `profileImageUrl` text,
+  `backgroundImageUrl` text,
+  `createdAt` timestamp NOT NULL,
+  `updatedAt` timestamp
+);
+```
+
+<br />
+
+`상태 메세지`,`프로필 이미지`,`배경 이미지`는 null 값을 가질 수 있다.
+
+<br />
+
+### room 테이블
+
+채팅 메세지를 가지는 채팅방의 정보를 저장하기 위한 테이블이다.
+
+`제목`,`업데이트 시간` 등의 정보를 가진다.
+
+```sql
+CREATE TABLE `room` (
+  `roomNo` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `title` varchar(45) NOT NULL,
+  `createdAt` timestamp NOT NULL,
+  `updatedAt` timestamp
+);
+```
+
+<br />
+
+### member 테이블
+
+채팅 방에 참여하고 있는 유저의 정보를 나타낸다.
+
+```sql
+CREATE TABLE `member` (
+  `roomNo` int NOT NULL,
+  `userID` varchar(255) NOT NULL,
+  `createdAt` timestamp NOT NULL,
+  PRIMARY KEY (`roomNo`, `userID`)
+);
+```
+
+room 테이블의 기본키인 `roomNo`와 user 테이블의 `userId`의 조합을 기본키로 가진다.
+
+<br />
+
+### chat 테이블
+
+채팅 방에 등록된 채팅 메세지의 정보를 나타내는 테이블이다.
+
+```sql
+CREATE TABLE `chat` (
+  `chatNo` int PRIMARY KEY AUTO_INCREMENT,
+  `roomNo` int PRIMARY KEY NOT NULL,
+  `userID` varchar(255) UNIQUE NOT NULL,
+  `type` ENUM ('TEXT', 'IMAGE', 'VIDEO') NOT NULL,
+  `content` TEXT NOT NULL,
+  `createdAt` timestamp NOT NULL
+);
+```
+
+텍스트, 이미지, 비디오 형식으로 메세지를 보낼 수 있다고 할 때 메세지의 타입을 나타내는 `type` 레코드가 있다. 해당 레코드는 `TEXT`,`IMAGE`,`VIDEO`의 ENUM으로 정의했다.
+
+`type`이 `TEXT` 일때 `content`에는 채팅 메세지가, `IMAGE`,`VIDEO` 일때는 url이 들어가게 된다.
+
+<br />
+
+### follow 테이블
+
+유저 사이의 팔로우 관계를 나타내는 테이블이다.
+
+```sql
+CREATE TABLE `follow` (
+  `userFrom` varchar(255) NOT NULL,
+  `userTo` varchar(255) NOT NULL,
+  PRIMARY KEY (`userFrom`, `userTo`)
+);
+```
+
+<br />
+
+## ERD 다이어그램
+
+<br />
+
+전체적인 참조 관계를 정리했을 때 ERD 다이어그램은 다음과 같다. <br/>
+
+<br />
+
+<div align="center">
+
+<iframe width="95%" height="600" src="https://dbdiagram.io/embed/61596cd4825b5b01461e357c"></iframe>
+
+</div>
+
+<br />
+
+---
+
+## 참고
+
+<br />
+
+-   [YS's develop story - 카카오톡 채팅목록 화면 ERD 설계](https://yusang.tistory.com/42)
+
+<br />
+
+---
+
+## 기여자
+
+<br />
+
+<td align="center">
+	<a href="http://jongminfire.dev">
+		<img src="https://avatars.githubusercontent.com/u/51112542?v=4?s=100" width="100px;" alt="" />
+		<br />
+		<sub>
+			<b>Jongminfire</b>
+		</sub>
+	</a>
+	<br />
+	<a href="#platform-Jongminfire" title="Packaging/porting to new platform">
+		📦
+	</a>
+</td>
