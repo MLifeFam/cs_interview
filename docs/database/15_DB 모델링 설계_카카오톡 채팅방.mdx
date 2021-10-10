@@ -95,7 +95,7 @@ room 테이블의 기본키인 `roomNo`와 user 테이블의 `userId`의 조합�
 ```sql
 CREATE TABLE `chat` (
   `chatNo` int PRIMARY KEY AUTO_INCREMENT,
-  `roomNo` int PRIMARY KEY NOT NULL,
+  `roomNo` int UNIQUE NOT NULL,
   `userID` varchar(255) UNIQUE NOT NULL,
   `type` ENUM ('TEXT', 'IMAGE', 'VIDEO') NOT NULL,
   `content` TEXT NOT NULL,
