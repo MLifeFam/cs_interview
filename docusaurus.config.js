@@ -8,6 +8,7 @@ module.exports = {
 	tagline: "CS 기본 지식 공부를 위한 홈페이지입니다.",
 	url: "https://your-docusaurus-test-site.com",
 	baseUrl: "/",
+	baseUrlIssueBanner: true,
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
@@ -20,6 +21,27 @@ module.exports = {
 			integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X",
 			crossorigin: "anonymous",
 		},
+	],
+	plugins: [
+		[
+			"@docusaurus/plugin-content-docs",
+			/** @type {import('@docusaurus/plugin-content-docs').Options} */
+			({
+				id: "interview",
+				path: "interview",
+				routeBasePath: "interview",
+				editUrl: ({ locale, versionDocsDirPath, docPath }) => {
+					if (locale !== "en") {
+						return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+					}
+					return `https://github.com/facebook/docusaurus/edit/main/website/${versionDocsDirPath}/${docPath}`;
+				},
+				editCurrentVersion: true,
+				sidebarPath: require.resolve("./sidebarInterview.js"),
+				showLastUpdateAuthor: true,
+				showLastUpdateTime: true,
+			}),
+		],
 	],
 	themeConfig: {
 		prism: {
@@ -36,7 +58,13 @@ module.exports = {
 					type: "doc",
 					docId: "intro",
 					position: "left",
-					label: "시작하기",
+					label: "CS 스터디",
+				},
+				{
+					to: "/interview/intro",
+					label: "면접 후기",
+					position: "left",
+					activeBaseRegex: `/interview/`,
 				},
 				{
 					href: "https://github.com/MLifeFam/cs_interview",
@@ -52,8 +80,12 @@ module.exports = {
 					title: "Docs",
 					items: [
 						{
-							label: "시작하기",
+							label: "CS 스터디",
 							to: "/docs/intro",
+						},
+						{
+							label: "면접 후기",
+							to: "/interview/intro",
 						},
 					],
 				},
