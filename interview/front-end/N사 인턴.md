@@ -29,7 +29,7 @@
 -   Props 와 state의 차이는 무엇인가요?
 -   리액트의 렌더링 조건을 알려주세요
 -   리액트의 상태관리 방법 중 어떤 것을 사용해봤나요?
--   Class 컴포넌트와 Functional 컴포넌트의 차이점은 무엇인가요?
+-   Class 컴포넌트와 Function 컴포넌트의 차이점은 무엇인가요?
 -   useEffect에 대해 설명해주세요
 -   useEffect에 빈 배열을 넣으면 왜 마운트,언마운트 될 때만 실행 되나요?
 -   useEffect optional 배열을 넣지 않으면 어떤 일이 발생하나요?
@@ -58,6 +58,6 @@
 -   Web Audio API를 통해 구현한 녹음기능에 대해 설명해주세요
 -   Infinite Scroll 을 어떤 방식으로 구현했나요?
 -   Firebase를 왜 사용했고 어떤 기능을 사용 하셨나요?
--   Firebase의 reartime database는 어떤 통신 방식을 사용하나요?
+-   Firebase의 realtime database는 어떤 통신 방식을 사용하나요?
 -   Firebase의 데이터를 받아온 이후 클라이언트에 어떤 식으로 구현했나요?
 -   협업 툴은 어떤 것을 사용했나요?
