@@ -44,6 +44,7 @@ module.exports = {
 		],
 	],
 	themeConfig: {
+		metadata: [{ name: "keywords", content: "developer,computer science,interview" }],
 		prism: {
 			additionalLanguages: ["java"],
 		},
